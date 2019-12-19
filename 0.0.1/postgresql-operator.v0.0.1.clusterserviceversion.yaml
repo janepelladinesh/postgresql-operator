@@ -17,6 +17,7 @@ metadata:
         }
       ]
     capabilities: Basic Install
+    categories: Database
   name: postgresql-operator.v0.0.1
   namespace: marketplace
 spec:
