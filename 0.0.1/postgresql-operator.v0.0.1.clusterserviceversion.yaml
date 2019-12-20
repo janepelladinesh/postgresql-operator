@@ -18,6 +18,12 @@ metadata:
       ]
     capabilities: Basic Install
     categories: Database
+    certified: 'true'
+    containerImage: quay.io/deekshah86/postgresql-operator
+    createdAt: 2019-12-13 09:00:00
+    description: Deploys postgresql based applications
+    repository: https://github.com/appsody/appsody-operator
+    support: postgresql
   name: postgresql-operator.v0.0.1
   namespace: marketplace
 spec:
