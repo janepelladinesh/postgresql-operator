@@ -30,7 +30,9 @@ spec:
   apiservicedefinitions: {}
   customresourcedefinitions:
     owned:
-    - kind: Postgresql
+    - description: Describes application deployment
+      displayName: Appsody Application
+      kind: Postgresql
       name: postgresqls.postgresql.example.com
       version: v1alpha1
   description: Placeholder description
