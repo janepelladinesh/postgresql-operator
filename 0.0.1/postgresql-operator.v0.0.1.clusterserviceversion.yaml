@@ -162,8 +162,8 @@ spec:
   - postgres
   - database
   maintainers:
-  - email: cordp@example.com
-    name: SomedCorp
+  - email: openlabs@ibm.com
+    name: Openlabs
   provider:
     name: Example
   version: 0.0.1
