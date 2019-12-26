@@ -31,7 +31,7 @@ spec:
   customresourcedefinitions:
     owned:
     - description: Describes application deployment
-      displayName: Appsody Application
+      displayName: Postgresql Application
       kind: Postgresql
       name: postgresqls.postgresql.example.com
       version: v1alpha1
