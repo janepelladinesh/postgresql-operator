@@ -19,7 +19,7 @@ metadata:
     capabilities: Basic Install
     categories: Database
     certified: 'true'
-    containerImage: quay.io/deekshah86/postgresql-operator
+    containerImage: quay.io/openlabs_operator/kube-operator:postgresql
     createdAt: 2019-12-13 09:00:00
     description: Deploys postgresql based applications
     repository: https://github.com/janepelladinesh/postgresql-operator
@@ -57,7 +57,7 @@ spec:
                 - /usr/local/bin/ao-logs
                 - /tmp/ansible-operator/runner
                 - stdout
-                image: quay.io/deekshah86/postgresql-operator
+                image: quay.io/openlabs_operator/kube-operator:postgresql
                 imagePullPolicy: Always
                 name: ansible
                 resources: {}
@@ -78,7 +78,7 @@ spec:
                   value: postgresql-operator
                 - name: ANSIBLE_GATHERING
                   value: explicit
-                image: quay.io/deekshah86/postgresql-operator
+                image: quay.io/openlabs_operator/kube-operator:postgresql
                 imagePullPolicy: Always
                 name: operator
                 resources: {}
