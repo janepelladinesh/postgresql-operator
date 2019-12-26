@@ -165,5 +165,5 @@ spec:
   - email: openlabs@ibm.com
     name: Openlabs
   provider:
-    name: Example
+    name: Openlabs
   version: 0.0.1
